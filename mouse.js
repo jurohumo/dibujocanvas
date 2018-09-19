@@ -56,6 +56,7 @@ cuadro.addEventListener("touchmove", moveHand);
 
 function pressHand(event) {
     state = 1;
+    alert(event);
     x = event.pageX;
     y = event.pageY;
 }
